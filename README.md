@@ -13,6 +13,8 @@ The dataset consists of 10,000 data points stored as rows with 10 features in co
 8.	Tool Wear [min] - The quality variants H/M/L add 5/3/2 minutes of tool wear to the used tool in the process.
 9.	Target - indicates, whether the machine has failed in this particular data point for any of the following failure modes are true.
 10.	Failure Type – indicates what type of failure has occurred.
+
+
 Types of Machine Failures:
 1.	Tool Wear Failure: the tool will be replaced of fail at a randomly selected tool wear time between 200 â€“240 mins (120 times in our dataset). At this point in time, the tool is replaced 69 times, and fails 51 times (randomly assigned).
 2.	Heat Dissipation Failure: heat dissipation causes a process failure, if the difference between air- and process temperature is below 8.6 K and the tool â€™s rotational speed is below 1380 rpm. This is the case for 115 data points.
