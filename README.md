@@ -21,3 +21,25 @@ Types of Machine Failures:
 3.	Power Failure: the product of torque and rotational speed (in rad/s) equals the power required for the process. If this power is below 3500 W or above 9000 W, the process fails, which is the case 95 times in our dataset.
 4.	Overstrain Failure: if the product of tool wear and torque exceeds 11,000 min Nm for the L product variant (12,000 M, 13,000 H), the process fails due to overstrain. This is true for 98 data points.
 5.	Random Failure: each process has a chance of 0.1% to fail regardless of its process parameters. This is the case for only 5 data points, less than could be expected for 10,000 data points in our dataset
+
+
+Machine Learning Algorithms:
+Various ML Algorithms have been used in the model out of which the best performing one is selected to further predict and work on testing and creating the report.
+ML models employed are:
+1. Random Forest
+2. Support Vector Machines
+3. Linear Regression
+4. Logistic Regression
+5. Decision Trees
+6. K-Nearest Neighbours
+
+Mostly, RF performs the best for prediction on a huge dataset.
+
+If we have noisy or unstandardized data, we can use following techniques to clean and pre-process it:
+1. Data Cleaning: Handling missing data, or outliers
+2. Data Integration
+3. Data Transformation: Scaling, and normalization
+4. Data Discretization
+5. Data Reduction: PCA, or LDA
+
+Data Visualization can be used for change detection between noisy and cleaned data.
